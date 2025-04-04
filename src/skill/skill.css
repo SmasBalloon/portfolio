@@ -1,0 +1,41 @@
+.skill{
+  width: 100%;
+}
+
+.title_skill{
+  width: 100%;
+  display: flex;
+}
+
+.title_skill h2{
+  padding-left: 17%;
+}
+
+.skill_list{
+  width: 100%;
+  display: flex;
+}
+
+.title_skill ul{
+  list-style: none;
+  text-decoration: none;
+  padding-left: 18%;
+}
+
+.neonfront{
+  font-size: xx-large;
+  color: var(--neon-color);
+  text-shadow: 0 0 5px var(--neon-color), 0 0 10px #ff00de, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+}
+
+.neonback{
+  font-size: xx-large;
+  color: var(--neon-color);
+  text-shadow: 0 0 5px var(--neon-color), 0 0 10px #37a4b0, 0 0 15px #37a4b0, 0 0 20px #37a4b0, 0 0 30px #37a4b0, 0 0 40px #37a4b0, 0 0 55px #37a4b0, 0 0 75px #37a4b0;
+}
+
+.neonTools{
+  font-size: xx-large;
+  color: var(--neon-color);
+  text-shadow: 0 0 5px var(--neon-color), 0 0 10px #152fd9, 0 0 15px #152fd9, 0 0 20px #152fd9, 0 0 30px #152fd9, 0 0 40px #152fd9, 0 0 55px #152fd9, 0 0 75px #152fd9;
+}

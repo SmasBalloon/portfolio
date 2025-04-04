@@ -1,0 +1,104 @@
+h1 {
+  width: 60%;
+  padding-left: 5%;
+}
+
+form {
+  width: 40%;
+  padding-left: 5%;
+}
+
+input , textarea {
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input{
+  width: 100%;
+}
+
+textarea {
+  margin-left: 2%;
+  width: 100%;
+  height: 100px;
+}
+
+.message label {
+  vertical-align: top;
+  margin-top: 100px;
+  margin: 0px;
+  
+}
+
+.submit{
+  font-size: medium;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 15%;
+  border: solid 0px;
+}
+
+.submit:hover {
+  cursor: pointer;
+  font-size: larger;
+  transition: 0.2s;
+}
+
+.lien{
+  display: block;
+  width: 35%;
+}
+
+.ME {
+  color: var(--neon-color);
+  padding-left: 5px;
+  text-shadow:
+      0 0 4px white,
+      0 0 11px white,
+      0 0 19px white,
+      0 0 40px white,
+      0 0 80px white,
+      0 0 90px white;
+}
+
+.discord:hover, .Instagram:hover, .linkedin:hover, .github:hover{
+  height: 40px;
+  width: 40px;
+  transition: 0.5s;
+  color: var(--neon-color);
+  text-shadow:
+    0 0 4px var(--neon-color),
+    0 0 11px var(--neon-bg-color),
+    0 0 19px var(--neon-bg-color),
+    0 0 40px var(--neon-bg-color),
+    0 0 80px var(--neon-bg-color),
+    0 0 90px var(--neon-bg-color),
+    0 0 100px var(--neon-bg-color),
+    0 0 150px var(--neon-bg-color);
+}
+
+.bas{
+  padding-left: 5%;
+  display: flex;
+}
+
+.email{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.Mail{
+  padding-left: 5%;
+}
+
+.Contactme{
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,84 @@
+.first{
+  width: 90%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.first__container{
+  width: 100%;
+  font-size: 2rem;
+}
+
+.first__name{
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 3%;
+  color: var(--neon-color);
+  animation: flicker 5s infinite;
+}
+
+.first__subtitle{
+  padding-left: 5%;
+  font-size: 3rem;
+}
+
+.first__title{
+  padding-left: 5%;
+}
+
+.first__subtitle--bold{
+  font-size: 4rem;
+  text-decoration: bold;
+  padding-left: 2%;
+  color: white;
+  text-shadow:  0 0 4px aqua,
+                0 0 11px aqua,
+                0 0 19px aqua,
+                0 0 40px aqua,
+                0 0 80px aqua;
+}
+
+.contact a{
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact a::before{
+  background-color: var(--neon-bg-color);
+  color: var(--neon-color);
+}
+
+
+
+.contact {
+  height: 10%;
+  padding-left: 2%;
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px var(--neon-color),
+      0 0 11px var(--neon-bg-color),
+      0 0 19px var(--neon-bg-color),
+      0 0 40px var(--neon-bg-color),
+      0 0 80px var(--neon-bg-color);
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
