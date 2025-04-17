@@ -1,10 +1,17 @@
 import "./contact.css";
 import DiscordWebhook from "discord-webhook-ts";
-import { EnvelopeOpenIcon, GitHubLogoIcon, LinkedInLogoIcon, InstagramLogoIcon, DiscordLogoIcon, Link2Icon } from "@radix-ui/react-icons";
+import {
+  EnvelopeOpenIcon,
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  InstagramLogoIcon,
+  DiscordLogoIcon,
+  Link2Icon,
+} from "@radix-ui/react-icons";
 
 import { useState } from "react";
 const WEBHOOK_URL =
-  "https://discord.com/api/webhooks/1338869320716914772/3f6eryqmk3SyLgPL-bBhrIUBo-4BxZzzUbQfUdX_Z5vDK544n92cOxAg2itbZqJIJxmJ"; // Remplace avec ton URL
+  "https://discord.com/api/webhooks/1361742226882826372/LCV9BlbShzoKK8BH6nn3q9MWL8I8cn6Od1wD9C19HyabpVjCnKL-JmocB5LEg8R5JNlE"; // Remplace avec ton URL
 
 export function Contact() {
   const [email, setEmail] = useState<string>("");
@@ -62,18 +69,14 @@ export function Contact() {
           </h1>
           <h2>
             <EnvelopeOpenIcon />
-            <span className="Mail">
-              MAIL :
-            </span>
+            <span className="Mail">MAIL :</span>
           </h2>
           <a href="mathis.sauvage24750@gmail.com" className="email">
             mathis.sauvage24750@gmail.com
           </a>
           <h2>
             <Link2Icon />
-            <span className="Mail">
-              Resaux :
-            </span>
+            <span className="Mail">Resaux :</span>
           </h2>
           <div className="contact">
             <a
@@ -81,14 +84,14 @@ export function Contact() {
               href="https://github.com/SmasBalloon"
               title="GitHub"
             >
-              <GitHubLogoIcon width={30} height={30} className="github"/>
+              <GitHubLogoIcon width={30} height={30} className="github" />
             </a>
             <a
               className="linkedin"
               href="https://www.linkedin.com/in/mathis-sauvage-4379b7327/"
               title="linkedin"
             >
-              <LinkedInLogoIcon width={30} height={30} className="linkedin"/>
+              <LinkedInLogoIcon width={30} height={30} className="linkedin" />
             </a>
             <a
               className="Instagram"
@@ -102,7 +105,7 @@ export function Contact() {
               href="https://discord.com/users/682531276078841881"
               title="discord"
             >
-              <DiscordLogoIcon width={30} height={30} className="discord"/>
+              <DiscordLogoIcon width={30} height={30} className="discord" />
             </a>
           </div>
         </div>
